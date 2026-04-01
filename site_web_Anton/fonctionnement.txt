@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Fonctionnement</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+  
+<body>
+  
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="fonctionnement.html">Fonctionnement</a>
+    <a href="caracteristiques.html">Caractéristiques</a>
+  </nav>
+    <h1>Fonctionnement</h1>
+  </header>
+    
+  <section>
+      <p>Fente pour accueillir le téléphone
+      <br>Cône d'amplification (principe du mégaphone)
+      <br>Boitier pour contenir le tout
+      <br>Aucune recharge</p>
+    
+    <a href="index.html" class="bouton">
+      Retour à l'accueil
+    </a>
+   </section>
+    
+  </body>
+  
+  
+  <footer>
+    <p>Projet STI2D - 2026</p>
+  </footer>
+  
+  
+  </html>
