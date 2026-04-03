@@ -1,6 +1,6 @@
 body {
-  font-family: Aria, sans-serif;
-  background-color: #EDC5C5;
+  font-family: Arial, sans-serif;
+  background-color: #111827;
   color: white;
   margin: 0;
   text-align: center;
@@ -8,8 +8,8 @@ body {
 
 /*Menu*/
 nav {
-  background-color: #AB5252;
-  padding: 15px;
+  background-color:#00FFCF;
+  padding:15px;
 }
 
 nav a {
@@ -19,12 +19,39 @@ nav a {
   font-weight: bold;
 }
 
-nav a:hover {
-  color: #873A3A;
+nav a: hover {
+  color:#0000FF;
   transition: 0.3s;
+ 
 }
 
-/*Section*/
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: #00FFCF;
+  text-shadow: 0 0 35px #0C8A32;
+}
+
+s {
+  font-size: 35px;
+  font-family: 'Vnariabi', sans-serif;
+  text-decoration: underline;
+}
+
+e {
+  font-size: 50px;
+  font-family: 'Hello Script', sans-serif;
+  text-decoration: underline;
+  color: #00FFCF;
+  text-shadow: 0 0 8px #0C8A32;
+}
+
+g {
+   font-size: 25px;
+}
+
+
+/*Sections*/
 header {
   padding: 20px;
 }
@@ -33,21 +60,40 @@ section {
   padding: 30px;
 }
 
-/*Bouton*/
+/* Bouton */
 .bouton {
- display: inline-block;
+  display: inline-block;
   margin-top: 20px;
   padding: 10px 20px;
-    background-color: #D268D9;
+  background-color: #F97316;
+  box-shadow: 0 0 10px #F97316, 0 0 20px #F97316;
   color: white;
-  text decoration: none;
-  border-radius: 5px;
+  text-decoration: none;
+  border-radius: 10px;
   transition: 0.3s;
 }
 
 .bouton:hover {
-  background-color: #D9A5CA;
+  box-shadow: 0 0 20px #F97316, 0 0 40px #F97316;
+  transform: scale(1.05);
 }
+
+.bouton2 {
+  display: inline-block;
+  margin-top: 5px;
+  padding: 5px 5px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.bouton2:hover {
+  transform: scale(1.05);
+  color: green;
+}
+
+
 /*Tableau*/
 table {
   margin: 20px auto;
@@ -61,11 +107,11 @@ th, td {
 }
 
 th {
-  background-color: #BA3CC7e;
+background-color: #34495e;
 }
 
 footer {
   margin-top: 40px;
   padding: 15px;
-  background-color: #834894;
+  background-color: #23FAFA;
 }
